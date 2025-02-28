@@ -1,0 +1,70 @@
+name: aclip
+description: Bookmarks, powered by Aptos
+
+version: 1.2.3+143
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.1"
+
+dependencies:
+  aptos_api_dart: 1.2.0
+  aptos_sdk_dart: 1.2.0
+  built_collection:
+  built_value:
+  cookie_jar:
+  crypto:
+  dio:
+  dio_cookie_manager:
+  flutter:
+    sdk: flutter
+  flutter_slidable:
+  flutter_rust_bridge: 1.78.0
+  html:
+  meta: ^1.8.0
+  one_of: ^1.5.0
+  package_info_plus:
+  path_provider:
+  pinenacl:
+  provider:
+  receive_sharing_intent:
+  settings_ui:
+  shared_preferences:
+  url_launcher:
+  webview_flutter:
+  universal_html:
+  ffi: ^2.0.2
+  freezed_annotation: ^2.2.0
+
+dev_dependencies:
+  build_runner: ^2.3.2
+  device_info_plus:
+  ffigen: ^8.0.2
+  flutter_driver:
+    sdk: flutter
+  flutter_lints:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.2.1
+  icons_launcher: ^2.0.4
+  integration_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  web: true
+  macos: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/book.png"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway-Italic.ttf
+          style: italic
